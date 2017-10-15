@@ -9,6 +9,7 @@ var index = require('./routes/index');
 var about = require('./routes/about');
 var services = require('./routes/services');
 var contact = require('./routes/contact');
+var PORT = process.env.PORT ||3030;
 
 var app = express();
 
@@ -47,8 +48,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(3030, ()=>{
-  console.log("Server started at PORT 3030");
+app.listen(PORT, ()=>{
+  console.log("Server started at PORT "+PORT);
 })
 
 module.exports = app;
