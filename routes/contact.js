@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post("/send", function(req, res, next){
-   var transporter = nodemailer.createTransport({
+   var transporter = nodemailer.createTransport("SMTP", {
        service: "Gmail",
        auth: {
            user: 'bloodprince027@gmail.com',
