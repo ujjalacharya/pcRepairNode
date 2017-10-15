@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Hardware Repair",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur animi, delectus fugit nam, vero harum eligendi enim reiciendis atque amet ipsam odio quo molestias expedita assumenda consequatur corporis voluptatem nisi",
+        "price": "10$-15$"
+    },
+    {
+        "name": "OS Installation",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur animi, delectus fugit nam, vero harum eligendi enim reiciendis atque amet ipsam odio quo molestias expedita assumenda consequatur corporis voluptatem nisi",
+        "price": "20$-25$"
+    },
+    {
+        "name": "Network Trobleshoot",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur animi, delectus fugit nam, vero harum eligendi enim reiciendis atque amet ipsam odio quo molestias expedita assumenda consequatur corporis voluptatem nis       Quod culpa sequi",
+        "price": "15$-20$"
+    },
+    {
+        "name": "PC Tune UP",
+        "description": "Tempora iure minus magni cumque ducimus, beatae asperiores? Nihil repellendus, velit in reiciendis maiores unde repellat totam, reprehenderit autem voluptates eum neque delectus? Voluptatum consectetur beatae expedita dolorum reiciendis et.",
+        "price": "30$-35$"
+    }    
+    
+]

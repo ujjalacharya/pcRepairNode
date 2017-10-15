@@ -1,0 +1,19 @@
+
+
+<% include partials/header %>
+
+<h2><%= title %> </h2>
+<% services.forEach(function(print){ %>
+    
+        <div class="well">
+            <h3><%= print.name %> </h3>
+            <p><%= print.description %> </p>
+            <p><strong><%= print.price %> </strong></p>
+        </div>
+   
+<% }); %> 
+
+
+
+
+<% include partials/footer %>
