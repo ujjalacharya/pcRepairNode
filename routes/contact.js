@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var nodemailer = require('nodemailer')
+var nodemailer = require('nodemailer');
 
 
 /* GET contact page. */
@@ -10,11 +10,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.post("/send", function(req, res, next){
-   var transporter = nodemailer.createTransport("SMTP", {
+   var transporter = nodemailer.createTransport({
        service: "Gmail",
        auth: {
            user: 'bloodprince027@gmail.com',
-           pass: 'heyyobiyach027'
+           pass: '**'
        }
    });
    var mailOptions = {
